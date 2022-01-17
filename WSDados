@@ -4,6 +4,7 @@ apt upgrade
 apt install zip
 apt install figlet
 apt install pv
+apt install git
 sd(){ 
     mv cosmike.flf /data/data/com.termux/files/usr/share/figlet
     clear
