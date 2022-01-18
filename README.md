@@ -2,4 +2,6 @@
 # Script simples para puxar dados 
 
 
-Use ./WSDados
+$ git clone https://github.com/WestSideDev/WSDados
+$ cd WSDados
+$ ./WSDados
