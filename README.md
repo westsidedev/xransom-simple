@@ -3,5 +3,7 @@
 
 
 $ git clone https://github.com/WestSideDev/WSDados
+
 $ cd WSDados
+
 $ ./WSDados
