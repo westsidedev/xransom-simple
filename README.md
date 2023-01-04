@@ -1,9 +1,9 @@
-# WSDados
+# WSbot
 # Script simples para puxar dados 
 
 
-$ git clone https://github.com/WestSideDev/WSDados
+$ git clone https://github.com/WestSideDev/WSbot
 
-$ cd WSDados
+$ cd WSbot
 
-$ ./WSDados
+$ ./WSbot
