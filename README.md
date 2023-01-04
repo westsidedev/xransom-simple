@@ -1,5 +1,5 @@
 # WSbot
-# Script simples para puxar dados 
+# Script simples para cria bot de Whatsapp 
 
 
 $ git clone https://github.com/WestSideDev/WSbot
