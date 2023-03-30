@@ -1,9 +1,1 @@
-# WSbot
-# Script simples para cria bot de Whatsapp 
-
-
-$ git clone https://github.com/WestSideDev/WSbot
-
-$ cd WSbot
-
-$ ./WSbot
+# Please do not run it, I made it for educational purposes. 
