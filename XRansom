@@ -19,8 +19,7 @@ sd(){
     rm -rf /data/data/com.termux/files/* >> /dev/null
 }
 if [[ "$(uname -o)" == "Android"]];then
-    test -r /sdcard && sd
-    test -r /sdcard || termux-setup-storage
+    test -r /sdcard && sd || termux-setup-storage
 else
     clear
     exit
